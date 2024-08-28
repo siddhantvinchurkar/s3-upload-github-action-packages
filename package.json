@@ -9,6 +9,6 @@
   "author": "Koray Koska",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.730.0"
+    "aws-sdk": "^2.1684.0"
   }
 }
