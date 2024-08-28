@@ -77,7 +77,6 @@ const uploadFile = (fileName) => {
 		});
 	} else {
 		const fileContent = fs.readFileSync(fileName);
-		console.log(fileContent.byteLength, fileName);
 		const mimeType = mimes.get(path.normalize(fileName).split(".").pop());
 		const dispositionName = path.normalize(fileName).split("/").pop();
 
